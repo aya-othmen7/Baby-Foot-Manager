@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous que vous avez installé les éléments suivants
 
 ### 1. Clonez le dépôt du projet
 
-git clone https://github.com/aya-othmen7/Baby-Foot-Manager.git
+git clone https://github.com/aya-othmen7/Baby-Foot-Manager/tree/master.git
 cd babyfoot-manager
 
 ### 2.Installer les dépendances
@@ -42,4 +42,4 @@ Vérifiez que les informations de connexion (nom d'utilisateur, mot de passe, ba
 ### 4. Démarrer l'application
 
 npm start
-Le serveur sera lancé sur http://localhost:3000. Ouvrez cette URL dans votre navigateur pour accéder à l'interface de
+Le serveur sera lancé sur http://localhost:3000. Ouvrez cette URL dans votre navigateur pour accéder à l'interface de gestion des parties de BabyFoot.
