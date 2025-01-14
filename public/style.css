@@ -48,12 +48,36 @@ input {
 }
 button {
     padding: 0.5rem 1rem;
-    background: #007bff;
+    background: none;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover {
-    background: #0056b3;
+
+.game.finished {
+    background: #babcbb; /* Couleur modifiée pour la partie terminée */
+    color: #6c757d; /* Couleur du texte pour les parties terminées */
+}
+
+#ongoing-counter {
+    display: none; /* Masquer le compteur lorsqu'une partie est terminée */
+}
+.game.finished .timer {
+    display: none; /* Cache le compteur de temps dans les parties terminées */
+}
+button i {
+    font-size: 1.2rem;
+    color: red; /* Couleur de l'icône */
+}
+button:hover i {
+    color: darkred; /* Couleur au survol */
+}
+.button{
+    padding: 0.5rem 1rem;
+    background:  #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
